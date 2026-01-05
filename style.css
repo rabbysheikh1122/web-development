@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(255, 228, 196, 0.643);
+    padding-top: 20px;
+}
+.logo h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: aqua;
+}
+span{
+    color: deeppink;
+}
+nav{
+    width: 80%;
+    max-width: 1100px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+nav .menu{
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 45px;
+
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: aqua;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.btn{
+    padding: 7px 13px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color:orangered;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: .4s ease-in;
+}
+.btn:hover{
+    color: black;
+}
