@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 header{
-    background-color: rgba(255, 228, 196, 0.643);
     padding-top: 20px;
+    background: url(./images/developer.png) , url(./images/header_bg.png) ,rgba(255, 228, 196, 0.643);
+    background-repeat: no-repeat;
+    background-position:top left , bottom right;
+
 }
+
 .logo h2{
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 1px;
     color: aqua;
+    font-weight: bolder;
 }
 span{
     color: deeppink;
@@ -52,7 +57,43 @@ ul li a{
     color: white;
     border-radius: 8px;
     transition: .4s ease-in;
+    cursor: pointer;
 }
 .btn:hover{
     color: black;
+}
+
+#banner{
+    /* border: 2px solid red; */
+    margin:47px 38px 0 123px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-contant{
+    max-width: 575px;
+}
+.banner-contant h2{
+    font-size: 45px;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.banner-contant h1{
+    letter-spacing: 1px;
+    color: black;
+    padding-bottom: 10px;
+    font-size: 55px;
+}
+.banner-contant p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.banner-img img{
+    max-width: 450px;
+    vertical-align: middle;
+
 }
